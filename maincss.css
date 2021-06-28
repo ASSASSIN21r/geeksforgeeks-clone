@@ -1,0 +1,150 @@
+*{
+   margin: 0%;
+}
+#stickyheader{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+#headerone{
+    display: flex;
+    flex-direction: row;
+    justify-content: middle;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom:10px ;
+   
+    box-shadow: 0px 2px 0px rgb(209, 209, 209);
+    
+}
+#headerone>p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+#headerone>p:hover{
+    color: darkgreen;
+    cursor: pointer;
+}
+.dropdown{
+ width: 30px;
+ padding-left: 0%;
+ transform: translate(-60%,2px);
+}
+.dropdown:hover{
+    cursor: pointer;
+    
+}
+
+
+#logogg{
+   
+    height: 27px;
+}
+#logolink:any-link{
+    position: absolute;
+    right: 50%;
+    transform: translateX(40%);
+    text-decoration: none;
+    
+}
+
+#buttons{
+    position: absolute;
+    right: 3%;
+    display: flex;
+    justify-content: middle;
+    align-items: center;
+}
+.btnwl{
+    border: none;
+ margin-right: 20px;
+ background-color: white;
+ width: 40px;
+ height: 40px;
+}
+.btnwl:hover{
+    cursor: pointer;
+}
+.btnwle{
+    width: 30px;
+ height: 30px;
+}
+#menubtn:hover{
+    
+    border-radius: 50%;
+    background-color: rgb(209, 209, 209);
+
+}
+#signinbtn{
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(5, 5, 5);
+    font-size: 15px;
+    color: white;
+
+}
+#signinbtn:hover{
+    cursor: pointer;
+}
+#headertwo{
+    margin: 10px;
+    padding: 8px;
+    font-family: 'Saira Condensed', sans-serif;
+    box-shadow: 0px 2px 0px rgb(241, 240, 240);
+}
+#headertwo>a{
+    margin-left: 10px;
+    padding-right: 10px;
+    
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+#headertwo>a:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#headertwo>a:visited{
+    color: black;
+    text-decoration: none;
+}
+#tutdropdwn{
+    width: 190px;
+    height: 293px;
+    border: black;
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px black;
+    display: none;
+}
+.distut{
+    display: flex;
+}
+.tutbtn{
+    border: none;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: start;
+    padding: 8px;
+    background-color: white;
+}
+.tutbtn:hover{
+    cursor: pointer;
+    background-color: rgb(206, 203, 203);
+}
+.tutbtnarr{
+    position: absolute;
+    right: 5%;
+    width: 15px;
+    transform: translateY(5px);
+}
