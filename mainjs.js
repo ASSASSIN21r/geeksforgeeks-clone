@@ -28,7 +28,7 @@ var signinbtn=document.getElementById("singin-btn-s")
 var signupbtn=document.getElementById("sign-up-btn-s")
 var signindiv=document.getElementById("signin-div")
 var canclebtn=document.getElementById('canclebutton')
-
+var mybutton =document.getElementById('top')
 
 
 
@@ -40,6 +40,7 @@ var canclebtn=document.getElementById('canclebutton')
 function tutbtne(){
    if(tutdropdwm.style.display=='flex'){
     tutdropdwm.style.display='none'
+    
     algomenu.style.display='none'
     dsmenu.style.display='none'
     langmenu.style.display='none' 
@@ -60,6 +61,7 @@ function tutbtne(){
    }
    else{
     tutdropdwm.style.display='flex'
+    tutdropdwm.style.zIndex='40'
     tutarr.style.transform='rotate(180deg)'
     jobdropdwn.style.display='none'
     stddropdwn.style.display='none'
@@ -70,6 +72,7 @@ function tutbtne(){
 algobtn.addEventListener('click',function(){
     if(tutdropdwm.style.display=='none'){
         algomenu.style.display='none'
+        
     }
     else if(algomenu.style.display=='flex'){
         algomenu.style.display='none'
@@ -77,6 +80,7 @@ algobtn.addEventListener('click',function(){
     }
     else{
         algomenu.style.display='flex'
+        algomenu.style.zIndex='40'
         algoarr.style.transform='rotate(180deg)'
     }
 })
@@ -91,6 +95,7 @@ function dsbtnclick(){
     }
     else{
         dsmenu.style.display='flex'
+        dsmenu.style.zIndex='40'
         dsarr.style.transform='rotate(180deg)'
     }
 }
@@ -104,6 +109,7 @@ function langbtnclick(){
     }
     else{
         langmenu.style.display='flex'
+        langmenu.style.zIndex='40'
         lngarr.style.transform='rotate(180deg)'
     }
 }
@@ -117,6 +123,7 @@ function intbtnclick(){
     }
     else{
         intmenu.style.display='flex'
+        intmenu.style.zIndex='40'
         intarr.style.transform='rotate(180deg)'
     }
 }
@@ -130,6 +137,7 @@ function gatebtnclick(){
     }
     else{
         gatemenu.style.display='flex'
+        gatemenu.style.zIndex='40'
         garr.style.transform='rotate(180deg)'
     }
 }
@@ -143,6 +151,7 @@ function isrobtnclick(){
     }
     else{
         isromenu.style.display='flex'
+        isromenu.style.zIndex='40'
         isroarr.style.transform='rotate(180deg)'
     }
 }
@@ -158,6 +167,7 @@ function stdbtnclick(){
     else{
         tutdropdwm.style.display='none'
         stddropdwn.style.display='flex'
+        stddropdwn.style.zIndex='40'
         jobdropdwn.style.display='none'
         jobarr.style.transform='rotate(0deg)'
         tutarr.style.transform='rotate(0deg)'
@@ -177,6 +187,7 @@ function jobbtnclick(){
         tutdropdwm.style.display='none'
         stddropdwn.style.display='none'
         jobdropdwn.style.display='flex'
+        jobdropdwn.style.zIndex='40'
         tutarr.style.transform='rotate(0deg)'
         stdarr.style.transform='rotate(0deg)'
         jobarr.style.transform='rotate(180deg)'
@@ -188,6 +199,7 @@ searchbtn.addEventListener('click',function(){
     }
     else{
         searchbox.style.display='block'
+        searchbox.style.zIndex='40'
         
     }
 })
@@ -200,10 +212,11 @@ searchbox.addEventListener('keyup',function(event){
 function menubtnclicked(){
 if(menudropdwn.style.display=='block'){
     menudropdwn.style.display='none'
+    
 }
 else{
     menudropdwn.style.display='block'
-    
+    menudropdwn.style.zIndex='20'
 }
 }
 
@@ -230,8 +243,11 @@ signinbtn.addEventListener('click',function(){
   }
   else{
     signindiv.style.display='block'
+    signindiv.style.zIndex='40'
   }
  }
  canclebtn.addEventListener('click',function(){
     signindiv.style.display='none'
  })
+
+ 
