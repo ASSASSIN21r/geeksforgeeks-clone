@@ -1,11 +1,12 @@
 *{
    margin: 0%;
+   
 }
-#stickyheader{
-    position: fixed;
+/* #stickyheader{
+    position: sticky;
     top: 0%;
     width: 100%;
-}
+} */
 #headerone{
     display: flex;
     flex-direction: row;
@@ -13,9 +14,7 @@
     align-items: center;
     padding-top: 15px;
     padding-bottom:10px ;
-   
     box-shadow: 0px 2px 0px rgb(209, 209, 209);
-    
 }
 #headerone>p{
     padding-left: 15px;
@@ -115,7 +114,7 @@
 }
 #tutdropdwn{
     width: 190px;
-    height: 293px;
+    height: 258px;
     border: black;
     background-color: green;
     position: absolute;
@@ -147,4 +146,637 @@
     right: 5%;
     width: 15px;
     transform: translateY(5px);
+}
+#algomenu{
+    width: 190px;
+    height: 257px;
+    border: black;
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px black;
+    display: none;
+}
+#dsmenu{
+    width: 190px;
+    height: 340px;
+    border: black;
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px black;
+    display: none;
+}
+#langmenu{
+    width: 190px;
+    height: 468px;
+    border: black;
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px black;
+    display: none;
+}
+#intmenu{
+    width: 190px;
+    height: 340px;
+    border: black;
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px black;
+    display: none;
+}
+#gatemenu{
+    width: 190px;
+    height: 284px;
+    border: black;
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px black;
+    display: none;
+}
+#isromenu{
+    width: 190px;
+    height: 184px;
+    border: black;
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px black;
+    display: none;
+}
+#stddropdwn{
+    width: 200px;
+    height: 425px;
+    border: black;
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px black;
+    display: none;
+}
+#jobdropdwn{
+    width: 200px;
+    height: 90px;
+    border: black;
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px black;
+    display: none;
+}
+#searchbox{
+    position: absolute;
+    right: 19%;
+    top: 2%;
+    height: 30px;
+    font-family: 'Saira Condensed', sans-serif;
+   font-size: 18px;
+   border: none;
+   background-color: gray;
+   border-radius: 8px;
+   color: white;
+   
+   display: none;
+}
+#searchbox:focus{
+    border: none;
+    outline: none;
+}
+#menu-dropdwn{
+    color: black;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 9%;
+    box-shadow: 0px 2px 0px rgb(241, 240, 240);
+    display: none;
+}
+.right-menu-links>a{
+    color: black;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.right-menu-links>a:hover{
+    color: darkgreen;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#right-links{
+    margin: 25px;
+}
+#link-table-one{
+    position: absolute;
+    right: 25%;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#link-table-two{
+    position: absolute;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.menu-drop-logos{
+ position: absolute;
+ height: 50px;
+ transform: translateY(-15px);
+}
+#job-div{
+    width: 90px;
+    height: 100px ;
+    position: absolute;
+    right: 45%;
+    background-color: white;
+    font-family: 'Saira Condensed', sans-serif;
+}
+#job-div>h1{
+    position: absolute;
+    transform: translateY(30px);
+}
+#job-div>h2{
+    font-size: 13px;
+    color: rgb(151, 151, 151);
+    transform: translateY(80px);
+}
+#job-div:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#premium-div{
+    width: 150px;
+    height: 100px ;
+    position: absolute;
+    right: 60%;
+    background-color: white;
+    font-family: 'Saira Condensed', sans-serif;
+}
+#premium-div>h1{
+    position: absolute;
+    transform: translateY(30px);
+}
+#premium-div>h2{
+    font-size: 13px;
+    color: rgb(151, 151, 151);
+    transform: translateY(80px);
+}
+#premium-div:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#practice-div{
+    width: 150px;
+    height: 100px ;
+    position: absolute;
+    right: 75%;
+    background-color: white;
+    font-family: 'Saira Condensed', sans-serif;
+}
+#practice-div>h1{
+    position: absolute;
+    transform: translateY(30px);
+}
+#practice-div>h2{
+    font-size: 13px;
+    color: rgb(151, 151, 151);
+    transform: translateY(80px);
+}
+#practice-div:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#write-div{
+    width: 150px;
+    height: 100px ;
+    position: absolute;
+    right: 88%;
+    background-color: white;
+    font-family: 'Saira Condensed', sans-serif;
+}
+#write-div>h1{
+    position: absolute;
+    transform: translateY(30px);
+}
+#write-div>h2{
+    font-size: 13px;
+    color: rgb(151, 151, 151);
+    transform: translateY(80px);
+}
+#write-div:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#signin-div{
+    width: 400px;
+    height: 390px;
+    background-color: rgb(196, 192, 192);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+
+    display: none;
+    
+    
+}
+.signinup{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 700;
+     width: 50%;
+     height: 40px;
+     background-color: darkgrey;
+     
+     font-size: 20px;
+      border: none;
+}
+.signinup:hover{
+    cursor: pointer;
+}
+#sign-up-btn-s{
+    background-color: rgb(235, 229, 229);
+}
+#sign-in-div{
+    font-family: 'Saira Condensed', sans-serif;
+    display: block;
+    
+    
+}
+#sign-in-div>input{
+position: absolute;
+right: 15%;
+
+       
+    font-family: 'Saira Condensed', sans-serif;
+    width: 70%;
+    height: 35px;
+    font-size: 20px;
+}
+#signin-btn{
+    width: 70%;
+    position: absolute;
+right: 15%;
+  height: 35px;
+  color: white;
+  background-color:#1FDB53 ;
+  border: none;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+#signin-btn:hover{
+    cursor: pointer;
+}
+
+.google{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color:#F14615;
+    color: white;
+    width: 35%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.google:hover{
+    cursor: pointer;
+}
+.facebook{
+    margin-right: 20px;
+    background-color:#4267B2;
+    color: white;
+    width: 35%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.facebook:hover{
+    cursor: pointer;
+}
+.ld{
+    margin-right: 20px;
+    background-color:#0072b1;
+    color: white;
+    width: 35%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.ld:hover{
+    cursor: pointer;
+}
+.git{
+    margin-right: 20px;
+    background-color:#211F1F;
+    color: white;
+    width: 35%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.git:hover{
+    cursor: pointer;
+}
+#otherlinks{
+    
+    transform: translate(13%,15px);
+}
+
+#sign-up-div{
+    font-family: 'Saira Condensed', sans-serif;
+    position: absolute;
+    display: none;
+    
+}
+#sign-up-div>input{
+position: absolute;
+right: 15%;
+
+       border-radius: 7px;
+    font-family: 'Saira Condensed', sans-serif;
+    width: 70%;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+}
+
+#signup-btn{
+    width: 70%;
+    position: absolute;
+right: 15%;
+top: 60%;
+  height: 35px;
+  color: white;
+  background-color:#1FDB53 ;
+  border: none;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+#signup-btn:hover{
+    cursor: pointer;
+}
+#singuplinks{
+    
+    
+        transform: translate(13%,10px);
+    
+}
+#canclebutton{
+    position: absolute;
+    right: 0%;
+    top:-20px;
+    width: 25px;
+    text-align: center;
+    height: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+#canclebutton:hover{
+    cursor: pointer;
+}
+#quicklinks{
+    position: absolute;
+    top:27%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    color: darkgreen;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+}
+.qlbtns{
+    width: 300px;
+    padding: 15px;
+    text-align: left;
+    border: none;
+    background-color: white;
+    font-size: 19px;
+    font-family: 'Saira Condensed', sans-serif;
+    border-radius: 10px;
+}
+.qlbtns:hover{
+    background-color: rgb(231, 229, 229);
+    cursor: pointer;
+    font-size: 22px;
+    
+}
+#featuredart{
+    position: absolute;
+    top:97%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    color: darkgreen;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+}
+#whatsnew{
+    position: absolute;
+    top:240%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    color: darkgreen;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+}
+#dsacard{
+    display: flex;
+    
+    
+    flex-direction: column;
+    font-size: 19px;
+}
+#dsacard>img{
+    height: 70px;
+    align-items: flex-start;
+}
+#dsascard{
+    display: flex;
+    
+    
+    flex-direction: column;
+    font-size: 19px;
+}
+#reco{
+    position: absolute;
+    top:325%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    color: darkgreen;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+}
+#footer{
+    
+    border-top: 2px solid rgb(241, 240, 240);
+    position: absolute;
+    top: 400%;
+    
+    width: 100%;
+    height: 200px;
+    background-color: white;
+
+}
+#logoadr{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    width: 200px;
+    position: absolute;
+    left: -100px;
+    transform: translate(130px,10px);
+  
+}
+.loc{
+    height: 19px;
+}
+#mail:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#company{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    
+    width: 200px;
+    position: absolute;
+    left: 230px;
+    transform: translate(130px,10px);
+}
+#company>p:hover{
+cursor: pointer;
+color: darkgreen;
+}
+#learn>p:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#contri>p:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#prac>p:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#learn{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    
+    width: 200px;
+    position: absolute;
+    left: 430px;
+    transform: translate(130px,10px);
+}
+
+#prac{
+font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    
+    width: 200px;
+    position: absolute;
+    left: 630px;
+    transform: translate(130px,10px);
+}
+#contri{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    
+    width: 200px;
+    position: absolute;
+    left: 830px;
+    transform: translate(130px,10px);
+}
+#endfoot{
+ position: absolute;
+ bottom: -20px;
+ width: 100%;
+ height: 30px;
+ background-color: rgb(11, 151, 11);
+ font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+}
+#gblogcard{
+    position: absolute;
+    left: 10%;
+    top: 28%;
+    width: 600px;
+     height: 300px;
+     border-radius: 9px;
+     box-shadow: 0px 1px 3px rgb(102, 100, 100);
+}
+#gbcard{
+    width: 600px;
+    height: 300px;
+}
+#gbcard:hover{
+    cursor: pointer;
+}
+#gblogc{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    font-family: 'Saira Condensed', sans-serif;
+}
+#readmore{
+    color: darkgreen;
+}
+#readmore:hover{
+    text-decoration: underline;
+    color: darkgreen;
+    cursor: pointer;
 }
